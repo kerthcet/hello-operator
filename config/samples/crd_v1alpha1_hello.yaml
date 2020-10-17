@@ -1,0 +1,7 @@
+apiVersion: crd.hello.com/v1alpha1
+kind: Hello
+metadata:
+  name: hello-sample
+spec:
+  # Add fields here
+  foo: bar
