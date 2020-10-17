@@ -3,5 +3,4 @@ kind: Hello
 metadata:
   name: hello-sample
 spec:
-  # Add fields here
-  foo: bar
+  times: 0

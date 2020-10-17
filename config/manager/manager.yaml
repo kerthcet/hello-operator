@@ -27,7 +27,7 @@ spec:
         - /manager
         args:
         - --enable-leader-election
-        image: controller:latest
+        image: registry.cn-shanghai.aliyuncs.com/kid17-devops/hello:0.1.0
         name: manager
         resources:
           limits:

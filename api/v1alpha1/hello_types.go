@@ -25,12 +25,12 @@ import (
 
 // HelloSpec defines the desired state of Hello
 type HelloSpec struct {
-	RemainingTime int `json:"remaining_time"`
+	Times int `json:"times"`
 }
 
 // HelloStatus defines the observed state of Hello
 type HelloStatus struct {
-	Status string `json:"status"`
+	Condition string `json:"condition"`
 }
 
 // +kubebuilder:object:root=true
